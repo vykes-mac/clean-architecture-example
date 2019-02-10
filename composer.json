@@ -1,0 +1,20 @@
+{
+    "require-dev": {
+        "squizlabs/php_codesniffer": "~3.4"
+    }
+    ,
+    "autoload": {
+        "psr-4": {
+            "Application\\": "Application/"
+        }
+    },
+    
+    "autoload-dev": {
+        "psr-4": {
+            "Application\\": "Application/"
+        }
+    },
+    "require": {
+        "slim/slim": "3.0"
+    }
+}
