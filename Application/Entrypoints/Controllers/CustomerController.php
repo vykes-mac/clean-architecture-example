@@ -22,7 +22,7 @@ class CustomerController
 
     public function getCustomer($request, $response, $args)
     {
-        $customer  = $this->getCustomerUseCase->getCustomer(10);
+        $customer  = $this->getCustomerUseCase->getCustomer($args['id']);
         $customerDto = new CustomerDto($customer);
         return $response->withJson(json_encode($customerDto));
     }
