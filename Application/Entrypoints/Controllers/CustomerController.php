@@ -5,7 +5,7 @@ use Psr\Container\ContainerInterface;
 use Application\Domain\Entity\Customer;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Http\Message\ResponseInterface as Response;
-use Application\Entrypoints\Models\CustomerDto;
+use Application\Data\Models\CustomerDto;
 
 class CustomerController
 {

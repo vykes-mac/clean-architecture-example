@@ -1,5 +1,5 @@
 <?php
-namespace Application\Entrypoints\Models;
+namespace Application\Data\Models;
 
 use Application\Domain\Entity\Customer;
 

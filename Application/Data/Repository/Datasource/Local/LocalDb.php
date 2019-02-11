@@ -1,15 +1,11 @@
 <?php
-namespace Application\DataProviders;
+namespace Application\Data\Repository\Datasource\Local;
 
 use Application\Domain\UseCase\GetCustomer;
 use Application\Domain\Entity\Customer;
 
-class CustomerDbProvider implements GetCustomer
+final class LocalDb implements GetCustomer
 {
-    public function __construct()
-    {
-    }
-
     public function getCustomer($id): Customer
     {
         $customer = new Customer();
